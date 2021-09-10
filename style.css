@@ -1,0 +1,56 @@
+body{
+	background-image:url(1.jpg);
+}
+
+.title{
+	text-align: center;
+}
+.com{
+	text-align: center;
+	border: 1px solid blueviolet;
+	background-color: white;
+	color: #3e3e3e;
+}
+.calbody
+{
+	background-color: #3e3e3e;
+	border: 2px solid blueviolet;
+	padding: 10px;
+	margin-left: 450px;
+	min-width: 27.4em;
+	max-width: 27.4em;
+}
+#u_screen{
+	text-align: left;
+	font-size: 18px;
+	width: 98%;
+	height: 30%;
+}
+#l_screen{
+	text-align: left;
+	font-size: 20px;
+	width: 98%;
+	height: 30%;
+}
+#num{
+	background-color: #ffffff;
+	border-radius: 15%;
+	border: 1px solid blueviolet;
+	margin: 2%;
+	height: 20%;
+	width: 15.27%;
+	font-size: 18px;
+}
+
+#num:hover
+{
+	background-color: #3e3e3e;
+	border: 1px solid white;
+	color: white;
+	box-shadow: 5px 5px 10px white;
+	margin: 2%;
+	height: 20%;
+	width: 15.27%;
+	font-size: 18px;
+
+}

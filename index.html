@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<h1 class="title">Calculator</h1>
+	<div class="calbody">
+	<form name="lcdform">
+	<input id="u_screen" name="uscreen" type="text" value=""><br>
+	<input id="l_screen" name="lscreen" type="text" value="0">
+</form>
+<p class="com">X company Calculator made by Faiq Farooq</p>
+<button id="num" value="1" onclick="dis('1');">1</button>
+<button id="num" value="2" onclick="dis('2');">2</button>
+<button id="num" value="3" onclick="dis('3');">3</button>
+<button id="num" value="/" onclick="dis('/');">/</button>
+<button id="num" value="link" onclick="window.location.href='https://faiqfarooq.github.io/calculator/';">link</button>
+<br>
+<button id="num" value="4" onclick="dis('4');">4</button>
+<button id="num" value="5" onclick="dis('5');">5</button>
+<button id="num" value="6" onclick="dis('6');">6</button>
+<button id="num" value="-" onclick="dis('-');">-</button>
+<button id="num" value="<" onclick="squar();">sqr</button>
+<br>
+<button id="num" value="7" onclick="dis('7');">7</button>
+<button id="num" value="8" onclick="dis('8');">8</button>
+<button id="num" value="9" onclick="dis('9');">9</button>
+<button id="num" value="*" onclick="dis('*');">x</button>
+<button id="num" value="+" onclick="dis('+');">+</button>
+<br>
+<button id="num" value="0" onclick="dis('0');">0</button>
+<button id="num" value="." onclick="dis('.');">.</button>
+<button id="num" value="c" onclick="clr();">C</button>
+
+<button id="num" value="%" onclick="dis('%');">%</button>
+<button id="num" value="=" onclick="equal();">=</button>
+</div>
+</body>
+<footer>
+</footer>
+	<script src="script.js">
+		
+	</script>
+</html>
